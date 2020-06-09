@@ -11,6 +11,4 @@ puts "Where would you like to go?"
 
 # puts input_to_index(user_input)
 user_input = gets.strip
-input_to_index(user_input)
-
-move(board,input_to_index(user_input),value = "X")
+puts input_to_index(user_input)
