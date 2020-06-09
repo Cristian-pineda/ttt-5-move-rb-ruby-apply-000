@@ -9,9 +9,10 @@ board = [" ", " ", " ", " "," ", " ", " ", " "," "]
 puts display_board(board)
 puts "Where would you like to go?"
 
-# puts input_to_index(user_input)
+#input_to_index(user_input)
 user_input = gets.strip
 converted_input = input_to_index(user_input)
 
+#move
 puts move(board,converted_input,value = "X")
 puts display_board(board)
