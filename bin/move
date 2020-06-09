@@ -14,4 +14,4 @@ user_input = gets.strip
 converted_input = input_to_index(user_input)
 
 puts move(board,converted_input,value = "X")
-puts display_board
+puts display_board(board)
