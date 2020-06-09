@@ -14,6 +14,10 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
+def value(o)
+  puts "O"
+end
+
 # Move
 def move(board,input_to_index,value)
-  board[converted_input] = value
+  board[input_to_index] = value
